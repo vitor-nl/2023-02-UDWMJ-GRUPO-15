@@ -1,6 +1,6 @@
-## TRBALHO DE UCS 2023/2
+## TRABALHO DE UCS 2023/2
 
-
+# INTEGRANTES DO GRUPO: SHANDLER CASTILHOS, EDUARDO RODRIGUES E LUCCA EMANUELLI
 # Duvidas 
 # Criar uma vm ?
 # Corrigir e entender o cidgo em si.
