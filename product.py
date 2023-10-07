@@ -1,19 +1,11 @@
 import category
-class Product(category):
-    def __init__(self, name, description, date_fabrication, is_active = True):
-        self._name = name
-        self._description = description
-        self._date_fabrication = date_fabrication
-        self._is_active = is_active
 
-    def name(self, name):
-        self._name = name
-    
-    def description(self, description):
-        self._description = description
-    
-    def date_fabrication(self, date_fabrication):
-        self._date_fabrication = date_fabrication
+class Product(category.Category):
+    def __init__(self, name, description, date_fabrication, is_active = True):
+        self.name = name
+        self.description = description
+        self.date_fabrication = date_fabrication
+        self._is_active = is_active
 
     def deactivated(self):
         if self._is_active:
