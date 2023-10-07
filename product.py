@@ -1,5 +1,6 @@
 import category
-class Product(category):
+
+class Product(category.Category):
     def __init__(self, name, description, date_fabrication, is_active = True):
         self._name = name
         self._description = description
