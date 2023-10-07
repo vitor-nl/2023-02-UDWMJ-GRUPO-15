@@ -8,10 +8,10 @@ class Product(category.Category):
         self._is_active = is_active
 
     def name(self, name):
-        self._name = name
+        self.name = name
     
     def description(self, description):
-        self._description = description
+        self.description = description
     
     def date_fabrication(self, date_fabrication):
         self._date_fabrication = date_fabrication
