@@ -1,4 +1,5 @@
-class Product:
+import category
+class Product(category):
     def __init__(self, name, description, date_fabrication, is_active = True):
         self._name = name
         self._description = description
@@ -15,5 +16,8 @@ class Product:
         self._date_fabrication = date_fabrication
 
     def deactivated(self):
-        is_active = False
-        print('Deactivated')
+        if self._is_active:
+            print('Product already active.')
+        else:
+            is_active = False
+            print('Deactivated.')
